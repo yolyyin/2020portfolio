@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brain Box</title>
+    <script src="https://kit.fontawesome.com/252fc0fcba.js"
+   crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="css/brainbox.css">
+  </head>
+  <body>
+    <nav class="purple1">
+      <div class="container">
+      <img src="images/logo.png" alt="logo" class="logo">
+      <p class="logo">
+        <a href="index.html" class="logo">TINGYUN YIN</a>
+      </p>
+      <i id="hamburger" class="fas fa-bars mobile tablet bars"></i>
+
+      <ul id="nav-ul" class="desk">
+        <li><a href="about.html">About</a></li>
+        <li><a href="index.html#case_study">Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      </div>
+    </nav>
+
+    <section class="purple1 cover">
+      <img class="desk" src="images/bb_face.png" alt="brain box prototype">
+      <img class="mobile" src="images/bbox_cover_mobile.svg" alt="brain box prototype">
+      <article class="text">
+      <h1>Brain Box</h1>
+      <button type="button" name="button"><a href="https://invis.io/5EWTYHRKDGH"><h3>View Prototype</h3></a></button>
+      <h3 class="sumarry">Sumarry</h3>
+      <h4>Brain Box understands that there are 2 stage of user behavior in a cloud storage app: 1st stage to store some content ,2nd stage to manage and maintain that content.<br>Accordingly, Brain Box provides a specially designed separate “control centers” to manage behaviors like share, sync, organize that need long-term maintenance.
+      </h4>
+      <div class="left">
+        <h3>Role<br>
+        UX Designer</h3>
+      </div>
+      <div class="right">
+        <h3>Tools</br>
+        Figma, html/css, photoshop</h3>
+      </div>
+    </article>
+    </section>
+
+    <div class="purple2">
+    <section class="purple2 problem">
+      <h2>Problem</h2>
+      <p>Lack of management for file accessibility, folder structure and local synchronization results in users’ distrust for online storage space and unnecessary upload/download behavior.</p>
+    </section>
+
+    <section class="purple3 solution">
+      <h2>Solution</h2>
+      <p>Brain Box understands that there are 2 stage of user behavior in a cloud storage app: the first stage to store some content and the second stage to manage and maintain that content. It’s like putting a brain online, apart from absorbing and outputting information, it also needs to organize itself and fix problems in a control center.</p>
+    </section>
+    </div>
+
+    <section class="grey">
+      <h2>Competitive Analysis</h2>
+      <p>I selected 3 representative competitors: Google Drive, Dropbox and Notion.</p>
+      <p>After a detailed SWOT analysis considering all aspects of competitors, I summarized the following metrics to measure a product’s market position: scope of user group, space/price ratio, capability to organize, capability to share, capability to synchronize and prominence of highlight features. Roughly the 3 competitors can be placed in the following diagram:</p>
+    </section>
+    <section class="white competitive">
+      <a href="images/bb_competitive.svg"><img src="images/bb_competitive.svg" alt="competition analysis"></a>
+      <p><strong>The competitive analysis shows a big niche space between the metric levels of major competitors. With same levels of technique breakthrough, I think a new competitor will be of competition advantage if it can have/be:
+      </strong></p>
+      <ol>
+        <li>Slightly more organization features than all products</li>
+        <li>The same level easy to share compared to current product</li>
+        <li>Targeting a slightly narrower user groups than Dropbox and Drive</li>
+        <li>Cheaper than Dropbox</li>
+        <li>More synchronization features than Drive</li>
+        <li>Having more highlights than Drive and Dropbox</li>
+      </ol>
+    </section>
+    <section class="grey">
+      <h2>User Survey</h2>
+      <p>I conducted a general survey to validate this competition direction. In the question about the reason to use cloud storage tools, 77.3% respondents chose backing up files, 66.7% chose office collaboration, which validates the importance of sync and share features.  Again in the question of most commonly used features, share features became the number one demanded. I decide  to make the improvement of organization, sync and share as 3 criteria for my design.</p>
+    </section>
+    <section class="white survey">
+      <img class="desk" src="images/bb_survey.png" alt="brain box survey sample">
+      <a href="images/bbox_research_mobile.svg"><img class="mobile" src="images/bbox_research_mobile.svg" alt="brain box survey sample"></a>
+    </section>
+    <section class="purple1 discription" >
+      <h2>Persona</h2>
+      <p>To deeply dig into the problem, I conducted interviews with users with different backgrounds. A gap between professions is clearly shown. I decided to mainly focus on a cross group of users that I have most connection with: tech workers and designers.</p>
+      <p>Based on real interviews, I made two personas, Haruka and Katrine’s stories, representing each specific usage case.</p>
+      <button type="button" name="button"><a href="https://yolyyin.github.io/ux_intensive_persona/"><h3>View Persona</h3></a></button>
+    </section>
+    <section class="grey persona">
+      <div class="haruka">
+        <img src="images/bb_persona1.png" alt="Haruka profile">
+        <h4><strong>Name:</strong> Haruka
+        <br><strong>Age:</strong> 29
+️        <br><strong>Occupation:</strong> Entrepreneur
+        <br><strong>Tier:</strong> Pioneer user
+        <br><strong>Focus:</strong> Collaboration, Work efficiency</h4>
+        <ul><h3>Haruka's needs:</h3>
+          <li>Back up a complete package of crucial project files at every benchmark.</li>
+          <li>Keep track with every co-worker’s progress and make sure each person has access to necessary working files.</li>
+          <li>Give out project information easily to interested third-party, at the same time control their access to core project files.</li>
+          <li>Transfer forms that need to be filled up from one hand to another.</li>
+        </ul>
+      </div>
+      <div class="katrine">
+        <img src="images/bb_persona2.png" alt="Katrine profile">
+        <h4><strong>Name:</strong> Katrine
+        <br><strong>Age:</strong> 25
+️        <br><strong>Occupation:</strong> Artist
+        <br><strong>Tier:</strong> Typical user
+        <br><strong>Focus:</strong> Storage space, Smoothness experience</h4>
+        <ul><h3>Katrine's needs:</h3>
+          <li>Back up a package of files as a portfolio, reflect and modifying these files time by time.</li>
+          <li>Get good references online and organize them to generate new ideas.</li>
+          <li>Build a bridge between material works and digital media, transfer photos to folders quickly.</li>
+          <li>Rapidly share interesting reference from online and pdf books to her friend.</li>
+        </ul>
+      </div>
+    </section>
+    <section class="white">
+    <section class="white discription ">
+      <h2>User Flow</h2>
+      <p>I differentiate the constructive behavior and the management behavior: as argued previously, users need maintenance and management of their files after they have created or shared them in the first place.</p>
+      <p>I designed the workflow so that for constructive part, operations are intuitive. Users just click through, and the app record their operation meta-info for future management.</p>
+      <p>For the management part, information are shown more detailed, users manage their files according to shown information and AI suggestions.</p>
+    </section>
+    <section class="white userflow">
+      <a href="images/bb_userflow.png"><img src="images/bb_userflow.png" alt="brain box user flow"></a>
+    </section>
+  </section>
+    <section class="purple1 discription">
+      <h2>Wireframe</h2>
+      <p>I made wireframes according to the user flow. All file dashboard is simple and intuitive without complex features, whereas 3 other management dashboards for shared, synchronized and suggested-to-organize files have more options to choose from.</p>
+    </section>
+    <section class="purple1 wireframe">
+      <img class="desk" src="images/bb_wireframe.png" alt="brain box wireframe">
+      <img class="mobile" src="images/bbox_wireframe_mobile.svg" alt="brain box wireframe">
+    </section>
+
+    <section class="grey test1">
+      <h2>First Round Test & Adjustment</h2>
+      <p>With the wireframe, I conducted the first round of user testing with 3 users. Here is the mockup and script I used:</p>
+      <button type="button" name="button"><a href="https://invis.io/JBW40P4HYZ3"><h3>Wireframe Mockup</h3></a></button>
+      <button type="button" name="button"><a href="https://docs.google.com/document/d/1baf23Ebjgl09b7OJblzpfn6DvGEENncG638DSDRUwYw/edit?usp=sharing"><h3>Testing Script</h3></a></button>
+      <p id="test1_reflect">Reflecting on the testing results, I made two major adjustments of the design. The first is happening in the user flow of deletion suggestion. Users loved this idea, but complained about its complicated workflow that needed too much conscious intention. I realized that many of its steps can happen automatically in the backstage of the app and pop up to users as a reminder such that users’ mind workload can be reduced. I made an adjusted user flow as below.</p>
+      <a href="images/bb_test1.svg"><img class="img1" src="images/bb_test1.svg" alt="test adjustment 1"></a>
+      <p>Reflecting on the testing results, I made two major adjustments of the design. The first is happening in the user flow of deletion suggestion. Users loved this idea, but complained about its complicated workflow that needed too much conscious intention. I realized that many of its steps can happen automatically in the backstage of the app and pop up to users as a reminder such that users’ mind workload can be reduced. I made an adjusted user flow as below.</p>
+      <a href="images/bb_test2.svg"><img class="img2" src="images/bb_test2.svg" alt="test adjustment 2"></a>
+    </section>
+    <section class="purple1 discription branding_discription">
+      <h2>Branding</h2>
+      <p>To design in a consistent design language, I made the following brand style guide. Then I made high fidelity interface design according to the after-test design adjustment and the style guide.</p>
+    </section>
+    <section class="white branding">
+      <a href="images/bb_brand.svg"><img src="images/bb_brand.svg" alt="brain box branding"></a>
+    </section>
+    <section class="purple1 userinterface">
+      <h2>User Interface Desgin</h2>
+      <img class="desk" src="images/bb_hifi.svg" alt="brain box hifi mockup">
+      <img class="mobile" src="images/bbox_ui_mobile.svg" alt="brain box hifi mockup">
+    </section>
+    <section class="grey test2">
+      <h2>Second Round Test & Ajustment</h2>
+      <p>I conducted the second round of testing with 3 other users. The high-fidelity prototype and testing notes are here:</p>
+      <button type="button" name="button"><a href="https://invis.io/AWWJH43FP6V"><h3>Hifi Prototype</h3></a></button>
+      <button type="button" name="button"><a href="https://docs.google.com/document/d/1Z1ucL4PDdBujqXs8W4FnxfHvVwkFgcljJh5IpMaG9wI/edit?usp=sharing"><h3>Testing Notes</h3></a></button>
+      <p id="test2_result">The testing result is much smoother than the first round, to elaborate details, there were 3 other problems that I went on hacking.</p>
+      <ol>
+        <li>The file detail slide menu is meant to appear when users clicked the folder or file name. Now it is on the right and that is against human reading habit, all tested users suggested me to move it to the left.</li>
+        <li>Content vocabularies should be pondered. Especially on the suggestion page, both the vocabularies in the deletion suggestion and organize suggestion are vague to understand.</li>
+        <li>I conducted a separate A/B testing to analysis UI design that can be improved by subtle change of borders and background color.</li>
+      </ol>
+      <p><strong>According to the test, I made final adjustment to the prototype, here are some important pages:</strong></p>
+      <a href="images/bb_adjustment.png"><img src="images/bb_adjustment.png" alt="brain box final adjustment"></a>
+    </section>
+    <section class="purple2 discription">
+      <h2>Conclusion</h2>
+      <p>Users don’t only upload files for one time. They revisit, sync, organize and share their files from time to time. The revisit, sync, organize and share features in current products are scattered and incomplete. Like putting a brain online, apart from absorbing and outputting information, it also needs to organize itself and fix problems in a control center.</p>
+      <p>In another word, I believe a good cloud storage app should be as easy to manage files afterwards as to initiate anything. From such need a good product can arise and have potential to stand unmovable among fierce competition.</p>
+    </section>
+
+    <footer class="black">
+      <div class="container">
+      <div id="footer_logo">
+      <img src="images/logo.png" alt="logo" class="logo">
+      <p class="logo">
+        <a href="index.html" class="logo">TINGYUN YIN</a>
+      </p>
+    </div>
+      <p class="social">
+        <a href="mailto:tingyun.yin@gmail.com"><i class="fas fa-envelope social"></i></a>
+        <a href="https://www.linkedin.com/in/tingyun-yin-28b00a5b/"><i class="fab fa-linkedin social"></i></a>
+        <a href="https://www.instagram.com/tingyun.yin/"><i class="fab fa-instagram social"></i></a>
+        <a href="https://github.com/yolyyin"><i class="fab fa-github social"></i></a>
+      </p>
+      </div>
+    </footer>
+
+    <script src="scripts/bbox_mobile.js">  </script>
+  </body>
+</html>

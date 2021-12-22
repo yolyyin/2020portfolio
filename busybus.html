@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Busy Bus</title>
+    <script src="https://kit.fontawesome.com/252fc0fcba.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="css/busybus.css">
+  </head>
+  <body>
+    <nav class="purple1">
+      <div class="container">
+      <img src="images/logo.png" alt="logo" class="logo">
+      <p class="logo">
+        <a href="index.html"class="logo">TINGYUN YIN</a>
+      </p>
+      <i id="hamburger" class="fas fa-bars mobile tablet bars"></i>
+
+      <ul id="nav-ul" class="desk">
+        <li><a href="about.html">About</a></li>
+        <li><a href="index.html#case_study">Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      </div>
+    </nav>
+
+    <section class="purple1 cover">
+      <img class="desk" src="images/busybus_face.png" alt="busy bus prototype">
+      <img class="mobile" src="images/bb_cover_mobile.svg" alt="busy bus prototype">
+      <article class="text">
+      <h1>Busy Bus</h1>
+      <button type="button" name="button"><a href="https://yolyyin.github.io/busybus_listing/"><h3>View Prototype</h3></a></button>
+      <h3 class="sumarry">Sumarry</h3>
+      <h4>Busy Bus is a real-time travel companion.<br>
+          It gives users simple and necessary information according to real-time scenario. It helps users to schedule trip, navigate walk, find bus and get off at the right time.</h4>
+      <div class="left">
+        <h3>Role<br>
+        UX Designer</h3>
+      </div>
+      <div class="right">
+        <h3>Tools</br>
+        Figma, html/css, photoshop</h3>
+      </div>
+    </article>
+    </section>
+
+    <div class="purple3">
+    <section class="purple2 problem">
+      <h2>Problem</h2>
+      <p>Current transit apps are like stock dashboard, push too much information to the users at one time.</p>
+      <p>It’s difficult for users to understand complicated info and figure out what they need to do.</p>
+    </section>
+
+    <section class="purple3 solution">
+      <h2>Solution</h2>
+      <p>Busy Bus is a real-time travel companion that respond to every bus travel user scenario. It helps users to schedule trip, navigate walk, find bus and get off at the right time.</p>
+    </section>
+  </div>
+
+    <section class="grey">
+      <h2>User Survey</h2>
+      <p>I conducted user survey with 22 and get 18 valid responses. I found 2 sections of user behaviors: temporary travellers need more help to find nearby stops, get walking navigations and get step-by-step transit guidance, whereas routine riders don’t need to be over-reminded of stop locations, but are more sensitive to timetable management and route-change alert.</p>
+      <p>Considering current transit App usage, the survey revealed a meaningful gap between what features the users are mostly using and their potential need. Planing transit, finding fastest route and calculating travel time are the current provided features, whereas users desire real-time bus timetable, step by step walking navigation and alarm reminder of next action.</p>
+    </section>
+
+    <section class="white survey">
+      <a href="images/survey_result2.png">
+      <img class="desk" src="images/survey_result2.png" alt="survey result diagram"></a>
+
+      <img class="mobile" src="images/bb_userResearch_mobile.svg" alt="survey result diagram">
+    </section>
+
+    <section class="grey">
+      <h2>Competitive Analysis</h2>
+      <p>I studied 2 major competitor Apps: Citymapper and Transit. There detailed SWOT analysis are as below.</p>
+      <p>Summarizing opportunities for newcomers, It’s all about balance. the current public transit app are arbitrary about a single feature that they want to highlight.</P>
+      <p>A newcomer should consider two different user categories -- curiosity-driven travelers and local routine riders -- balance their different needs and balance between data soundness and interface simplicity: users don’t want to get lost in a too overlapping spider-web; they want to see multiple information delivered with neat and clear format.</p>
+    </section>
+
+    <section class="white swot">
+      <h3>Citymapper SWOT Analysis</h3>
+      <article class="swot_intro">
+
+        <img src="images/transit.PNG" alt="transit screen example">
+        <div class="text">
+        <p><em>“It’s like a God view of the entire city’s public transit options.”</em></p>
+        <p><strong>Google Search Description:</strong> The Ultimate Transport App</p>
+        <p><strong>Founded: </strong>2011</p>
+        <p><strong>Total Funding: </strong>50 million</p>
+        <p><strong>Employee number: </strong>11 - 50</p>
+        <p><strong>Headquarter location: </strong>London</p>
+      </div>
+      </article>
+      <article class="swot_analysis">
+        <ul>
+          <p><em>Strength</em></p>
+          <li>Extremely sound and complete database of routes and stops of every city transit</li>
+          <li>Step-by-step transit direction</li>
+          <li>Bird view of nearby stops and stations of a single kind of transport</li>
+        </ul>
+
+        <ul>
+          <p><em>Weakness</em></p>
+          <li>Complicated interface</li>
+          <li>Real-time schedule not highlighted</li>
+        </ul>
+
+        <ul>
+          <p><em>Opportunity</em></p>
+          <li>Improve geographic information system with a better scaled-up map of stop nearby</li>
+        </ul>
+
+        <ul>
+          <p><em>Threat</em></p>
+          <li>Static GIS system being challenged by dynamic GIS system</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="white swot">
+      <h3>Transit SWOT Analysis</h3>
+      <article class="swot_intro">
+
+        <img src="images/citymapper.PNG" alt="city mapper screen example">
+        <div class="text">
+        <p><em>"Upcoming departure times for nearby
+          lines. Real-time data for improved accuracy.
+          Your friendly transit companion”</em></p>
+        <p>Google Search Description: real-time urban travel companion</p>
+        <p>Founded: 2013</p>
+        <p>Total Funding: 26.6 million</p>
+        <p>Employee number: 11 - 50</p>
+        <p>Headquarter location: Montreal</p>
+      </div>
+      </article>
+      <article class="swot_analysis">
+        <ul>
+          <p><em>Strength</em></p>
+          <li>Sophisticated real-time tracking technique.</li>
+          <li>Live call-to-action  feature.</li>
+        </ul>
+
+        <ul>
+          <p><em>Weakness</em></p>
+          <li>Too focused on accurate real-time single bus data, poorly supporting overall map view.</li>
+          <li>Without step-by-step transit guides</li>
+        </ul>
+
+        <ul>
+          <p><em>Opportunity</em></p>
+          <li>Improve design of big map view</li>
+          <li>Improve real-time location tracking</li>
+        </ul>
+
+        <ul>
+          <p><em>Threat</em></p>
+          <li>Targeted market might be too narrow for particular features.</li>
+          <li>Uniquene from similar apps might cause anti-habit hurdles for new users</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="grey">
+      <h2>User Stories</h2>
+      <p>According to competitive analysis and survey, I distinguished two categories of users with obvious behavior difference: temporary travellers and routine riders.</p>
+      <p>Then I tried to compare them and find overlap. I found some of their most important needs are well overlapped, I could tell the overlapped needs as they are most common stories for both types of users.</p>
+      <p>There are slightly difference in the rest of important needs for both groups separately,  so I defined all these stories  medium-high important. Below medium importance  level, the stories become trivial and individual, so I defined all of them as low importance to avoid feature creep.</p>
+    </section>
+    <section class="grey story">
+      <div class="user_story temporary desk" id="tt">
+        <div class="img_container">
+        <h4 class="desk">Temporary Traveller User Stories</h4>
+        <img class="desk" src="images/tt_table.png" alt="temporary traveller user stories">
+      </div>
+      </div>
+      <div class="user_story routine desk" id="rt">
+        <div class="img_container">
+        <h4 class="desk">Routine Rider User Stories</h4>
+        <img class="desk" src="images/rr_table.png" alt="routine rider user stories">
+        </div>
+      </div>
+      <div class="user_story balance">
+        <div class="img_container">
+        <h4>Balanced User Stories</h4>
+        <img class="mobile" src="images/b_table.png" alt="balanced user stories">
+      </div>
+      </div>
+    </section>
+
+    <section class="purple1 description">
+      <h2>Wireframe</h2>
+      <p>I made wireframe from user stories,  responding to the whole user journey: schedule trip, find routes, navigate walk, find buses.</p>
+    </section>
+
+    <section class="grey wireframe">
+      <img class="desk" src="images/wireframe.png" alt="wireframe sketch">
+      <img class="mobile" src="images/bb_wireframe_mobile.svg" alt="wireframe sketch">
+    </section>
+
+    <section class="purple1 description">
+      <h2>Testing & Adjustment</h2>
+      <p>Based on the first-version wireframe, I tested 3 users with 3 tasks to complete, according to analysis of testing results, I adjusted original design.</p>
+    </section>
+
+    <section class="white test">
+      <h3>Based on user behavior showed in the following 3 tasks: </h3>
+      <article class="task">
+        <h4>Task 1 Please check at what time you should set off for a specific final destination.</h4>
+        <ul>
+          <li>Users understand the real-time set off notice</li>
+          <li>Users understand timelines of same number busses coming at different time</li>
+          <li>Users are unsure and confused with detailed icons, numbers, and meanings of texts.</li>
+          <li>Users misunderstand the time ruler</li>
+        </ul>
+      </article>
+      <article class="task">
+        <h4>Task 2 Please open the real-time timetable of next coming bus near you.</h4>
+        <ul>
+          <li>Users follow the expected workflow</li>
+          <li>Users do not expect to open walking navigation from the dashboard</li>
+          <li>Users suggest the coming bus graph should be arranged in a direction that buses go from top to bottom.</li>
+          <li>Users expect timetable of a single bus and the info is missed</li>
+        </ul>
+      </article>
+      </article class="task">
+        <h4>Task 3 Please get information to help you get off the vehicle when riding.</h4>
+        <ul>
+          <li>Users follow the expected workflow</li>
+          <li>Users understand the real-time get-off notice</li>
+          <li>User don’t understand the call-to-action ‘go’ button.</li>
+          <li>Drag-left for next step is not obvious.</li>
+        </ul>
+      </article>
+      <h3>I adjusted the wireframe as below: </h3>
+    </section>
+
+    <section class="white revised">
+      <img class="desk" src="images/revised_wf.png" alt="ajusted wireframe">
+      <img class="mobile" src="images/bb_wireframeRevised_mobile.svg" alt="adjusted wireframe">
+    </section>
+
+    <section class="purple1 description proto">
+      <h2>Visual Design & Development</h2>
+      <p>I selected 2 key screens and made detailed visual design according to Android design guide. The first screen includes features to distinguish bus stops near me. The second screen contains real-time bus tables at a particular stop.</p>
+      <p>I wrote html and css code for screen 2, in which I used techniques such as embed google font, font awesome icons, webkit-scrollbar, etc.</p>
+      <img src="images/vd_screen1.png" alt="visual design screen 1">
+      <div class="development_frame">
+        <h4>Scroll up/down to interact</h4>
+        <iframe allowtransparency="true" id="myFrame" src="busybus_listing/index.html" title="busybus listing"></iframe>
+      </div>
+    </section>
+
+    <section class="purple2 description">
+      <h2>Conclusion</h2>
+      <p>Information involved in a public transit app can be as complicated as a stock dashboard.</p>
+      <p>To make a truly usable transit app, Busy-bus strategy is to provide necessary information once at one scenario and to keep the interface as simple as possible.</p>
+    </section>
+
+    <footer class="black">
+      <div class="container">
+      <div id="footer_logo">
+      <img src="images/logo.png" alt="logo" class="logo">
+      <p class="logo">
+        <a href="index.html" class="logo">TINGYUN YIN</a>
+      </p>
+    </div>
+      <p class="social">
+        <a href="mailto:tingyun.yin@gmail.com"><i class="fas fa-envelope social"></i></a>
+        <a href="https://www.linkedin.com/in/tingyun-yin-28b00a5b/"><i class="fab fa-linkedin social"></i></a>
+        <a href="https://www.instagram.com/tingyun.yin/"><i class="fab fa-instagram social"></i></a>
+        <a href="https://github.com/yolyyin"><i class="fab fa-github social"></i></a>
+      </p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="scripts/bb_mobile.js"></script>
+  </body>
+</html>

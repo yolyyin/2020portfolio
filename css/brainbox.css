@@ -1,0 +1,841 @@
+@font-face {
+  font-family: droid_sans;
+  src: url(DroidSans.ttf);
+}
+@font-face {
+  font-family: droid_sans;
+  src: url(DroidSans-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: abril;
+  src: url(AbrilFat.ttf);
+}
+/*desk*/
+  /*responsive*/
+  i.mobile.bars{
+      display:none;
+  }
+  .mobile{
+    display: none;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  html{
+    font-size: 10px;
+    font-family: droid_sans,arial,sans-serif;
+  }
+  div.container{
+    margin: 0 auto 0 auto;
+    width:88%;
+  }
+  P,
+  li{
+    font-size: 2rem;
+    line-height: 3.15rem;
+  }
+  h1{
+    font-family: abril,Arial,sans-serif;
+    font-size: 6.75rem;
+  }
+  h2{
+    font-weight: bold;
+    font-size: 3.6rem;
+  }
+  h3{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 3.6rem;
+  }
+  h4{
+    font-size: 2.2rem;
+    line-height: 3.6rem;
+  }
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  a.logo:hover{
+    text-decoration: none;
+  }
+  .purple1{
+    background-color: #36054E;
+    color: #ffffff;
+    overflow: auto;
+  }
+  .purple2{
+    background-color: #AA28FF;
+    color: #ffffff;
+    overflow: auto;
+  }
+  .purple3{
+    background-color: #9C1EEE;
+    color: #ffffff;
+    overflow: auto;
+  }
+  .grey{
+    background-color: #DADADA;
+    color: #000000;
+  }
+  .white{
+    background-color: #ffffff;
+    color: #000000;
+  }
+  .black{
+    background-color: #000000;
+    color: #ffffff;
+  }
+  /*picture size*/
+img.logo{
+  float: left;
+  height:3.6rem;
+}
+i.bars{
+  font-size: 2.9rem;
+}
+i.social{
+  font-size: 2.5rem;
+}
+/*nav*/
+nav{
+  padding: 0 4.6% 0 4.6%;
+  z-index:1;
+  position: relative;
+}
+
+img.logo{
+  display: inline-block;
+  margin: 2.4rem 0 0 0;
+}
+p.logo{
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin: 3.6rem 0 0rem 2.45rem;
+}
+nav ul{
+  display: inline-block;
+  float: right;
+  margin: 3.6rem 0 0 0;
+}
+nav li{
+  display: inline-block;
+  margin: 0 0 0 4.2rem;
+  font-size: 2rem;
+}
+
+i.bars{
+  display: inline-block;
+  float: right;
+  margin: 1rem 0 0 0;
+}
+/*cover*/
+.cover{
+  padding: 5.4rem 0 7.2rem 0;
+  text-align: center;
+}
+.cover img{
+  margin: 0 auto 0 auto;
+  width: 76%;
+}
+.cover .text{
+  margin: 5.4rem 20% 0 20%;
+}
+.cover h1{
+  margin-bottom: 6.3rem;
+}
+button{
+  background: none;
+  border: solid 1px #ffffff;
+  color: #ffffff;
+  font-family: droid_sans,arial,sans-serif;
+  font-size: 2.6rem;
+  padding: 1.8rem;
+}
+.cover h3.sumarry{
+  margin-top: 5.4rem;
+  margin-bottom: 3.6rem;
+  font-size: 2.6rem;
+  text-decoration: underline;
+}
+.cover h4{
+  text-align: left;
+  margin-bottom: 7.2rem;
+}
+.cover .left{
+  float: left;
+  text-align: left;
+}
+.cover .right{
+  float: right;
+  text-align: left;
+}
+.problem,
+.solution{
+  padding: 7.2rem 8% 5.4rem 8%;
+  text-align: center;
+  width: 50%;
+}
+.problem{
+  float: left;
+}
+.solution{
+  float: right;
+}
+.problem h2,
+.solution h2{
+  margin-bottom: 3.6rem;
+}
+.grey,
+.discription{
+  padding: 5.4rem 20% 3.6rem 20%;
+  text-align: left;
+}
+.grey h2,
+.discription h2{
+  margin-bottom: 3.6rem;
+}
+.grey p,
+.discription p{
+  margin-bottom: 1.8rem;
+}
+.competitive{
+  padding: 3.6rem 0 7.2rem 0;
+  text-align: center;
+}
+.competitive img{
+  margin: 0 auto 0 auto;
+  width: 76%;
+}
+.competitive p{
+  text-align: left;
+  margin: 7.2rem 20% 0 20%;
+}
+.competitive ol{
+  list-style-type: decimal;
+  list-style-position: inside;
+  text-align: left;
+  margin: 3.6rem 20% 0 20%;
+}
+.competitive strong{
+  font-weight: bold;
+}
+.survey{
+  padding: 1.8rem 0 1.8rem 0;
+  text-align: center;
+}
+.survey img{
+  margin: auto;
+  width: 88%;
+}
+.discription button{
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
+  font-size: 2rem;
+}
+.discription h3{
+  font-weight: normal;
+}
+.persona{
+  padding: 0 0 5.4rem 8%;
+  overflow: auto;
+}
+div.haruka,div.katrine{
+  margin-top: 7.2rem;
+  overflow: auto;
+}
+.haruka img,.katrine img{
+  display: block;
+  float: left;
+  margin-right: 5%;
+  width: 16.8%;
+}
+.haruka h4,.katrine h4{
+  float: left;
+  font-size: 1.8rem;
+  line-height: 3.6rem;
+  margin-right: 6%;
+  width: 17%;
+}
+.haruka ul,.katrine ul{
+  float: left;
+  list-style-type: disc;
+  list-style-position: inside;
+  width:49%;
+}
+.haruka li,.katrine li{
+  font-size: 1.8rem;
+  line-height: 3.6rem;
+}
+.haruka h3,.katrine h3{
+  font-size: 2rem;
+}
+.userflow{
+  padding-bottom: 3.6rem;
+  text-align: center;
+}
+.userflow img{
+  margin: auto;
+  width: 90%;
+}
+.wireframe{
+  padding-bottom: 7.2rem;
+  text-align: center;
+}
+.wireframe img{
+  margin: auto;
+  width:85.5%;
+}
+.test1{
+  padding-bottom: 1.8rem;
+}
+.test1 button{
+  margin: 0 3.6rem 3.6rem 0;
+  color: #000000;
+  border-color: #000000;
+}
+.test1 h3{
+  font-size: 2rem;
+  font-weight: normal;
+}
+.test1 img {
+  margin-top: 1.8rem;
+  margin-bottom: 3.6rem;
+}
+.test1 img.img1{
+  width: 100%;
+}
+.test1 img.img2{
+  width: 60.6%;
+}
+.branding_discription{
+  padding-bottom: 5.4rem;
+}
+.branding{
+  padding: 3.6rem 0 3.6rem 0;
+  text-align: center;
+}
+.branding img{
+  margin: auto;
+  width: 81.5%;
+}
+.userinterface{
+  padding: 5.4rem 0 3.6rem 0;
+  text-align: center;
+}
+.userinterface h2{
+  text-align: left;
+  margin: 0 0 0 20%;
+}
+.userinterface img{
+  margin: 4.5rem auto 0 auto;
+  width: 81.5%;
+}
+.test2 button{
+  margin: 0 3.6rem 3.6rem 0;
+  color: #000000;
+  border-color: #000000;
+}
+.test2 h3{
+  font-size: 2rem;
+  font-weight: normal;
+}
+.test2 ol{
+  margin-top: 3.6rem;
+}
+.test2 li{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+  line-height: 3.15rem;
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+.test2 strong{
+  display: block;
+  margin: 3.6rem 0 3.6rem 0;
+}
+.test2 img{
+  width: 100%;
+  margin-bottom: 3.6rem;
+}
+
+/*footer*/
+footer div.container{
+  padding:0 4.6% 12.6rem 4.6%;
+}
+#footer_logo{
+  display: inline-block;
+}
+footer p.social{
+  display: inline-block;
+  float: right;
+  margin-top: 3.6rem;
+}
+i.social{
+  display: inline-block;
+  margin:0 0 0 3.5rem;
+}
+
+
+@media screen and (max-width:900px){
+
+  /*mobile*/
+    /*responsive*/
+    .mobile{
+      display: block;
+    }
+    .desk{
+      display: none;
+    }
+
+
+    /*overall*/
+    *{
+      box-sizing: border-box;
+    }
+    html{
+      font-size: 10px;
+      font-family: droid_sans,arial,sans-serif;
+    }
+    div.container{
+      margin: 0 auto 0 auto;
+      width:90%;
+    }
+    P,
+    li{
+      font-size: 2rem;
+      line-height: 3.15rem;
+    }
+    h1{
+      font-family: abril,Arial,sans-serif;
+      font-size:5.4rem;
+    }
+    h2{
+      font-weight: bold;
+      font-size: 3.6rem;
+      line-height: 4.5rem;
+    }
+    h3{
+      font-size: 2.4rem;
+      font-weight: bold;
+      line-height: 3.6rem;
+    }
+    h4{
+      font-size: 2.2rem;
+      line-height: 3.6rem;
+    }
+    a{
+      color: inherit;
+      text-decoration: none;
+    }
+    a:hover{
+      text-decoration: underline;
+    }
+    a.logo:hover{
+      text-decoration: none;
+    }
+    /*background-color*/
+
+    body,
+    .purple1{
+      background-color: #36054E;
+      color: #ffffff;
+      overflow: auto;
+    }
+    .purple2{
+      background-color: #AA28FF;
+      color: #ffffff;
+      overflow: auto;
+    }
+    .purple3{
+      background-color: #9C1EEE;
+      color: #ffffff;
+      overflow: auto;
+    }
+    .grey{
+      background-color: #DADADA;
+      color: #000000;
+    }
+    .white{
+      background-color: #ffffff;
+      color: #000000;
+    }
+    .black{
+      background-color: #000000;
+      color: #ffffff;
+    }
+    /*picture size*/
+  img.logo{
+    float: left;
+    height:3rem;
+  }
+  i.bars{
+    font-size: 2.9rem;
+  }
+  i.social{
+    font-size: 2.2rem;
+  }
+  /*nav*/
+  nav{
+    padding: 1.8rem 0 0 0;
+    z-index:0;
+    position: relative;
+  }
+
+  img.logo{
+    display: inline-block;
+    float: left;
+    margin:  0;
+  }
+  p.logo{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 1rem 0 0rem 2.4rem;
+  }
+
+  i.bars{
+    display: inline-block;
+    float: right;
+    margin: 0;
+  }
+
+  /*hamburger*/
+  i.mobile.bars{
+    display:inline-block;
+    cursor: pointer;
+    margin: 0;
+  }
+  i.mobile.bars:focus{
+    outline: none;
+  }
+
+  /*toggle nav ul*/
+  nav ul.show{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    margin: 1.8rem 0 0 0;
+
+    text-align: right;
+    width: 100%;
+  }
+  nav li{
+    margin: 0 0 0 0;
+    font-size: 2.2rem;
+    letter-spacing: 0.2rem;
+    line-height: 3.6rem;
+  }
+  nav li:hover{
+    font-weight: bold;
+  }
+
+
+  /*cover*/
+  .cover{
+    padding: 7.2rem 0 7.2rem 0;
+    text-align: center;
+  }
+  .cover img{
+    margin: 0 auto 0 auto;
+    width: 90%;
+  }
+  .cover .text{
+    margin: 5.4rem 10% 0 10%;
+  }
+  .cover h1{
+    margin-bottom: 6.3rem;
+  }
+  button{
+    background: none;
+    border: solid 1px #ffffff;
+    color: #ffffff;
+    font-family: droid_sans,arial,sans-serif;
+    font-size: 2.6rem;
+    padding: 1.8rem;
+  }
+  .cover h3.sumarry{
+    margin-top: 5.4rem;
+    margin-bottom: 3.6rem;
+    font-size: 2.6rem;
+    text-decoration: underline;
+  }
+  .cover h4{
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 7.2rem;
+  }
+  .cover .left{
+    float: none;
+    text-align: center;
+  }
+  .cover .right{
+    margin-top: 5.4rem;
+    float: none;
+    text-align: center;
+  }
+  .problem,
+  .solution{
+    padding: 7.2rem 10% 7.2rem 10%;
+    text-align: left;
+    width: 100%;
+  }
+  .problem{
+    float: left;
+  }
+  .solution{
+    float: right;
+  }
+  .problem h2,
+  .solution h2{
+    margin-bottom: 3.6rem;
+  }
+  .grey,
+  .discription{
+    padding: 7.2rem 10% 5.4rem 10%;
+    text-align: left;
+  }
+  .grey h2,
+  .discription h2{
+    margin-bottom: 3.6rem;
+  }
+  .grey p,
+  .discription p{
+    margin-bottom: 1.8rem;
+  }
+
+  .competitive{
+    padding: 3.6rem 0 7.2rem 0;
+    text-align: center;
+  }
+  .competitive img{
+    margin: 0 auto 0 auto;
+    width: 100%;
+  }
+  .competitive p{
+    text-align: left;
+    margin: 5.4rem 10% 0 10%;
+  }
+  .competitive ol{
+    list-style-type: decimal;
+    list-style-position: inside;
+    text-align: left;
+    margin: 5.4rem 10% 0 10%;
+  }
+  .competitive li{
+    margin-top: 1rem;
+  }
+  .competitive strong{
+    font-weight: bold;
+  }
+
+  .survey{
+    padding: 3.6rem 0 3.6rem 0;
+    text-align: center;
+  }
+  .survey img{
+    margin: auto;
+    width: 95%;
+  }
+
+  .discription button{
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+    font-size: 2rem;
+  }
+  .discription h3{
+    font-weight: normal;
+  }
+
+  .persona{
+    padding: 0 0 0 0;
+    overflow: auto;
+  }
+  .persona strong{
+    font-weight: bold;
+  }
+  div.haruka,div.katrine{
+    margin: 7.2rem 0 7.2rem 0;
+    overflow: auto;
+    text-align: center;
+  }
+  .haruka img,.katrine img{
+    display: block;
+    float: none;
+    margin: auto;
+    width: 58.7%;
+  }
+  .haruka h4,.katrine h4{
+    float: none;
+    font-size: 2rem;
+    line-height: 3.6rem;
+    margin:3.6rem 0 5.4rem 0;
+    width: 100%;
+  }
+  .haruka ul,.katrine ul{
+    float: left;
+    margin: 0 10% 0 10%;
+    list-style-type: disc;
+    list-style-position: outside;
+    text-align: left;
+    width:auto;
+  }
+  .haruka li,.katrine li{
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    margin-top: 1.8rem;
+  }
+  .haruka h3,.katrine h3{
+    font-size: 2rem;
+  }
+
+
+  .userflow{
+    padding-bottom: 7.2rem;
+    text-align: center;
+  }
+  .userflow img{
+    margin: auto;
+    width: 100%;
+  }
+
+  .wireframe{
+    padding-bottom: 7.2rem;
+    text-align: center;
+  }
+  .wireframe img{
+    margin: auto;
+    width:90%;
+  }
+  .test1{
+    padding-bottom: 1.8rem;
+  }
+  .test1 h2{
+    margin-bottom: 5.4rem;
+  }
+  .test1 button{
+    margin: 3.6rem 3.6rem 0rem 0;
+    color: #000000;
+    border-color: #000000;
+    text-align: center;
+    width: 21rem;
+  }
+  .test1 h3{
+    font-size: 2rem;
+    font-weight: normal;
+  }
+  .test1 p{
+    margin-top: 1.8rem;
+  }
+  #test1_reflect{
+    margin-top: 5.4rem;
+  }
+
+
+  .test1 img.img1,
+  .test1 img.img2 {
+    margin-top: 3.6rem;
+    margin-bottom: 3.6rem;
+    width: 117%;
+    margin-left: -8%;
+  }
+
+  .branding_discription{
+    padding-bottom: 5.4rem;
+  }
+  .branding{
+    padding: 1.8rem 0 1.8rem 0;
+    text-align: center;
+  }
+  .branding img{
+    margin: auto;
+    width: 95%;
+  }
+  .userinterface{
+    padding: 7.2rem 0 7.2rem 0;
+    text-align: center;
+  }
+  .userinterface h2{
+    text-align: left;
+    margin: 0 0 0 10%;
+  }
+  .userinterface img{
+    margin: 3.6rem auto 0 auto;
+    width: 90%;
+  }
+
+  .test2 h2{
+    margin-bottom: 5.4rem;
+  }
+  .test2 p{
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+  }
+  .test2 button{
+    margin: 3.6rem 3.6rem 0rem 0;;
+    color: #000000;
+    border-color: #000000;
+    text-align: center;
+    width: 21rem;
+  }
+  #test2_result{
+    margin-top: 5.4rem;
+  }
+  .test2 h3{
+    font-size: 2rem;
+    font-weight: normal;
+  }
+
+  .test2 ol{
+    margin-top: 5.4rem;
+  }
+  .test2 li{
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 3.6rem;
+    line-height: 3.15rem;
+    list-style-type: decimal;
+    list-style-position: outside;
+  }
+  .test2 strong{
+    font-weight: bold;
+    display: block;
+    margin: 5.4rem 0 5.4rem 0;
+  }
+  .test2 img{
+    width: 117%;
+    margin-left: -8%;
+    margin-bottom: 1.8rem;
+  }
+
+  /*footer*/
+  footer div.container{
+    padding:1rem 0 12.6rem 0;
+  }
+  #footer_logo{
+    display: block;
+  }
+
+
+  footer p.social{
+    display: block;
+    float: left;
+    margin: 3.6rem 0 0 0;
+    line-height: 3.15rem;
+    font-size: 2rem;
+  }
+  i.social{
+    display: inline-block;
+    float: none;
+    margin:0 3.5rem 0 0;
+  }
+
+
+}
